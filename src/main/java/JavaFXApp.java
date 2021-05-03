@@ -32,16 +32,15 @@ public class JavaFXApp extends Application {
     protected int computeAdd (int number1, int number2) {
         return number1+number2;
     }
-
     protected int computeMultiply (int number1, int number2) {
         return 0;
     }
-
     protected int computeDivide (int number1, int number2) {
         return 0;
     }
 
     private void compute (String operator) {
+
 
         int result;
         int number1 = getNumberFromTextField (txtNumber1);
